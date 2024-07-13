@@ -1,0 +1,136 @@
+@media screen and (max-width: 767px) {
+  .container-btn a {
+    width: 120px !important;
+    height: 48px !important;
+  }
+  .container-btn a::before {
+    width: 12px !important;
+    top: 5px !important;
+    left: -11px !important;
+  }
+  .container-btn a::after {
+    height: 12px !important;
+    top: 47px !important;
+    left: -6px !important;
+  }
+  .container-btn a span {
+    top: 16px !important;
+    left: 10px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .container-btn a {
+    width: 96px !important;
+    height: 39.4px !important;
+  }
+  .container-btn a::before {
+    width: 9.6px !important;
+    top: 6px !important;
+    left: -10px !important;
+  }
+  .container-btn a::after {
+    height: 9.6px !important;
+    top: 37.6px !important;
+    left: -4.4px !important;
+  }
+  .container-btn a span {
+    top: 12.8px !important;
+    left: 8px;
+    font-size: 8px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px; */
+}
+
+.container-btn ul {
+  display: flex;
+}
+
+.container-btn li {
+  list-style: none;
+}
+
+.container-btn .logo {
+  color: #333;
+  font-size: 40px;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 15px;
+}
+
+.container-btn a span {
+  color: #262626;
+  position: absolute;
+  top: 30px;
+  letter-spacing: 3px;
+}
+
+.container-btn a {
+  width: 200px;
+  height: 80px;
+  background-color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -25px 20px 10px #000;
+  transition: 0.5s ease-out;
+}
+
+.container-btn a::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 20px;
+  background-color: #b1b1b1;
+  top: 10px;
+  left: -20px;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.container-btn a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: #b1b1b1;
+  top: 80px;
+  left: -11px;
+  transform: rotate(0deg) skewX(-46deg);
+}
+
+/* vreyyyyyyyyyyyyyyyyyyyyyyy hard */
+.container-btn a:hover {
+  transform: translate(12px, -15px) rotate(-30deg) skew(25deg);
+  box-shadow: -50px 50px 50px #000;
+  &#btn-facebook:hover {
+    background-color: #4267b2;
+  }
+  &#btn-instagram:hover {
+    background: #d6249f;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+  }
+  &#btn-email:hover {
+    background-color: rgb(255, 44, 44);
+  }
+}

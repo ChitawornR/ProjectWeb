@@ -1,0 +1,81 @@
+.container-progress {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.bar-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 15%;
+  padding: 10px;
+  background-color: yellow;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* lg */
+  .bar-name {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bar-name {
+    font-size: 13px;
+    width: 25%;
+    /* padding: 5px; */
+  }
+}
+@media screen and (max-width: 400px) {
+    .bar-name {
+      font-size: 13px;
+      width: 30%;
+      /* padding: 5px; */
+    }
+  }
+
+.bar-percent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.164);
+}
+
+.bar-percent::before {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  content: attr(percent) "%";
+  padding-right: 7px;
+  height: 100%;
+  width: calc(var(--percent) * 1%);
+  background-color: red;
+  z-index: 5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.html-bar-percent::before {
+  background-color: rgb(255, 102, 0);
+}
+.css-bar-percent::before {
+  background-color: rgb(0, 164, 230);
+}
+.java-bar-percent::before {
+  background-color: rgb(81, 92, 131);
+}
+.python-bar-percent::before {
+  background-color: #234b6d;
+}
+.c-bar-percent::before {
+  background-color: #ecaa46;
+}
+.sql-bar-percent::before {
+  background-color: #6d9435;
+}
+.react-bar-percent::before {
+  background-color: #0a78df;
+}
