@@ -21,21 +21,13 @@
   }
   .inner-card-slide {
     display: flex;
-    height: 40em !important;
-    align-items: center !important;
+    height: 40em; /* ปรับความสูงตามความเหมาะสม */
+    align-items: center;
+    overflow: hidden; /* ซ่อนการ์ดที่ไม่ได้แสดง */
   }
   .carousel-item-card {
-    flex: 0 0 calc(100% / 4) !important;
+    flex: 0 0 calc(100% / 3) !important;
   }
-  /* .card{
-    height: 530px;
-  }
-  .card-body{
-    height: 220px;
-  }
-  .img-wrapper{
-    height: 335px;
-  } */
 }
 @media (min-width: 992px) and (max-width: 1199px){
   /* lg */

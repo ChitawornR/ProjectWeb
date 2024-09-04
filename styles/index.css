@@ -264,6 +264,15 @@ h3 {
   border-color: #ce5504 !important;
 }
 
+.in-navbarSupportedContent{
+  display: flex;
+  justify-content: space-between;
+}
+
+button-git{
+  justify-self: end;
+}
+
 li.nav-item a,
 .btn-github {
   transition: all 0.4s;
@@ -287,10 +296,6 @@ li.nav-item a:hover {
 
 .text-muted {
   color: white !important;
-}
-
-.picture-about {
-  display: flex;
 }
 
 .card {
