@@ -155,10 +155,9 @@ p {
   }
 }
 /* END RESPONSIVE ZONE */
+/* 090a0f */
 body {
-  /* background-color: #222831; */
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  /* filter: drop-shadow(0 0 10px white); */
+  background-color: #090a0f;
   overflow-x: hidden !important;
 }
 
@@ -280,7 +279,6 @@ li.nav-item a,
 
 li.nav-item a:hover {
   border-radius: 5px;
-  color: #ff5722;
   background-color: rgba(255, 255, 255, 0.075);
   /* transform: scale(1.1); */
   transform: translateY(-3px);
