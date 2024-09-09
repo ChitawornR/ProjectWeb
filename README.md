@@ -1,6 +1,5 @@
-## About my Portfolio
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-<hr/>
+# About my Portfolio
+During my second year of study, I created this project to serve as a personal portfolio. In it, I demonstrate the various skills I learned and applied during that time. I did my best to make the portfolio as good as possible. HTML, CSS, and JavaScript were all used in various ways throughout the development process of this project.
+<hr>
 
-[see my portfolio](https://portfolio-chittaworn.vercel.app/)
-
+👉 [see my portfolio](https://portfolio-chittaworn.vercel.app/) 👈
